@@ -1,3 +1,9 @@
-.btn{
+.main {
+    border-radius: 5px;
+    width: 300px;
+    background-color: #80ff80;
+}
+
+.btn {
     width: 50px;
 }
