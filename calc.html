@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="calc.css">
+    <title>電卓</title>
+</head>
+
+<body>
+    <table>
+        <p>電卓</p>
+        <input id="result" />
+        <tr>
+            <td><input class="btn" type="button" value="1" onclick="inputNum('1')" /></td>
+            <td><input class="btn" type="button" value="2" onclick="inputNum('2')" /></td>
+            <td><input class="btn" type="button" value="3" onclick="inputNum('3')" /></td>
+            <td><input class="btn" type="button" value="+" onclick="setOperator('+')" /></td>
+        </tr>
+        <tr>
+            <td><input class="btn" type="button" value="4" onclick="inputNum('4')" /></td>
+            <td><input class="btn" type="button" value="5" onclick="inputNum('5')" /></td>
+            <td><input class="btn" type="button" value="6" onclick="inputNum('6')" /></td>
+            <td><input class="btn" type="button" value="-" onclick="setOperator('-')" /></td>
+        </tr>
+        <tr>
+            <td><input class="btn" type="button" value="7" onclick="inputNum('7')" /></td>
+            <td><input class="btn" type="button" value="8" onclick="inputNum('8')" /></td>
+            <td><input class="btn" type="button" value="9" onclick="inputNum('9')" /></td>
+            <td><input class="btn" type="button" value="*" onclick="setOperator('*')" /></td>
+        </tr>
+        <tr>
+            <td><input class="btn" type="button" value="AC" onclick="clearResult()" /></td>
+            <td><input class="btn" type="button" value="0" onclick="inputNum('0')" /></td>
+            <td><input class="btn" type="button" value="=" onclick="setResult()" /></td>
+            <td><input class="btn" type="button" value="/" onclick="setOperator('/')" /></td>
+        </tr>
+        <script>
+            let a = "";
+            let b = "";
+            let rs = 0;
+            let operator = "";
+            let aFlag = false;
+
+            let inputNum = (num) => {
+                if (aFlag) {
+                    b += num;
+                    document.getElementById("result").value = b;
+                }
+                else {
+                    a += num;
+                    document.getElementById("result").value = a;
+                }
+            }
+
+            let setOperator = (ope) => {
+                operator = ope;
+                if (!aFlag) { aFlag = true; }
+            }
+
+            let setResult = () => {
+                switch (operator) {
+                    case '+': rs = parseInt(a) + parseInt(b); break;
+                    case '-': rs = parseInt(a) - parseInt(b); break;
+                    case '*': rs = parseInt(a) * parseInt(b); break;
+                    case '/': rs = parseInt(a) - parseInt(b); break;
+                    default: document.getElementById("result").value = "Error!";
+                }
+                document.getElementById("result").value = rs;
+                a = rs.toString();
+                b = "";
+            }
+
+            let clearResult = () => {
+                a = "";
+                b = "";
+                rs = 0;
+                operator = "";
+                aFlag = false;
+                document.getElementById("result").value = "";
+            }
+        </script>
+    </table>
+</body>
+</html>
