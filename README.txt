@@ -3,7 +3,7 @@ https://github.com/watamaru1029/jsproduct/"ファイル名"で確認可能
 ↓以下成果物
 
 微妙な電卓
-calc.html
+https://github.com/watamaru1029/jsproduct/calc.html
 
 定時タイマー
-timer.html
+https://github.com/watamaru1029/jsproduct/timer.html
