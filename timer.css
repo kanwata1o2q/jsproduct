@@ -1,19 +1,30 @@
 .content1 {
-    width: 500px;
+    width: 50%;
+    border: solid 5px #0080ff;
+    border-radius: 5px;
     background-color: #ffff80;
 }
 
 .content2 {
-    width: 500px;
+    width: 50%;
+    border: solid 5px #0080ff;
+    border-radius: 5px;
     background-color: #80ffff;
+    margin-top: 5px;
 }
 
 .content3 {
-    width: 500px;
+    width: 50%;
+    border: solid 5px #0080ff;
+    border-radius: 5px;
     background-color: #cfff8e;
+    margin-top: 5px;
 }
 
 .content4 {
-    width: 500px;
+    width: 50%;
+    border: solid 5px #0080ff;
+    border-radius: 5px;
     background-color: #ff9f40;
+    margin-top: 5px;
 }
