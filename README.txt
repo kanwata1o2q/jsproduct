@@ -9,4 +9,4 @@ https://watamaru1029.github.io/jsproduct/calc.html
 https://watamaru1029.github.io/jsproduct/timer.html
 
 カレンダー
-https://watamaru1029.github.io/jsproduct/timer.html
+https://watamaru1029.github.io/jsproduct/calender.html
