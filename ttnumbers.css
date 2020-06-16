@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.panel {
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    background-color: #c0c4fc;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: blue;
+}
+
+.start{
+    width: 100px;
+    height: 50px;
+    background-color: #a2ffa2;
+    text-align: center
+    margin 1px;
+}
