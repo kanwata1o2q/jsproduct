@@ -13,3 +13,6 @@ https://watamaru1029.github.io/jsproduct/calender.html
 
 1～9の数字を順番にクリックして時間を競うゲーム(通称 Touch the numbers)
 https://watamaru1029.github.io/jsproduct/ttnumbers.html
+
+身長体重からBMI算出
+https://watamaru1029.github.io/jsproduct/bmicheck.html
