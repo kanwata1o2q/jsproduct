@@ -1,0 +1,13 @@
+.inputData {
+    width: 50%;
+    background-color: #80ffbf;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.result {
+    width: 50%;
+    height: 160px;
+    background-color: #ffff80;
+    padding-left: 5px;
+}

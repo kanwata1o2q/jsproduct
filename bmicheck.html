@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bodycheck.css">
+    <title>身体チェック</title>
+</head>
+
+<body>
+    <div class="inputData">
+        <p>BMI測定</p>
+        <p>身長 <input type="text" id="height" />cm</p>
+        <p>体重 <input type="text" id="weight" />kg</p>
+        <p>BMIは「18.5～25」が「普通」とされています。</p>
+        <input type="button" id="checkBMI" value="計算" />
+    </div>
+    <div class="result">
+        <p>結果</p>
+        <div id="resultData"></div>
+    </div>
+    <script src="bodycheck.js"></script>
+</body>
+
+</html>
