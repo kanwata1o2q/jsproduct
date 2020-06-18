@@ -1,0 +1,28 @@
+.panelBlack {
+    color: #000;
+    width: 20%;
+    margin: 2px;
+    text-align: center;
+    line-height: 200px;
+    float: left;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.panelWhite {
+    color: #FFF;
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+    text-align: center;
+    line-height: 200px;
+    float: left;
+}
+
+.titleBlack {
+    color: #000;
+}
+
+.titleWhite {
+    color: #FFF;
+}
