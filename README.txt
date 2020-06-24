@@ -17,3 +17,6 @@ https://watamaru1029.github.io/jsproduct/bmicheck.html
 
 100種類のカラーコードを生成し、画面に表示するアプリ
 https://watamaru1029.github.io/jsproduct/randomColor.html
+
+波のアニメーション
+https://watamaru1029.github.io/jsproduct/wave.html
