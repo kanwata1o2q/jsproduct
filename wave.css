@@ -1,0 +1,34 @@
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dotBlack {
+    width: 5px;
+    height: 5px;
+    background-color: #e3e3e3;
+    margin: 5px;
+    float: left;
+    border-radius: 50%;
+    animation: block-anime 2s linear infinite;
+}
+
+.row {
+    clear: both;
+}
+
+@keyframes block-anime {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-80px);
+        background-color: #000;
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
