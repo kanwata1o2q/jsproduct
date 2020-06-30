@@ -1,0 +1,50 @@
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.row {
+    clear: both;
+}
+
+.panel1 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: #000;
+    background-color: #80ff00;
+    float: left;
+    margin: 1px;
+}
+
+.panel2 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: #000;
+    background-color: #00ffff;
+    float: left;
+    margin: 1px;
+}
+
+.panel3 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: #000;
+    background-color: #ff8080;
+    float: left;
+    margin: 1px;
+}
+
+.panel4 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: #000;
+    background-color: #ffff00;
+    float: left;
+    margin: 1px;
+}
