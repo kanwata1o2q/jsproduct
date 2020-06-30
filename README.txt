@@ -20,3 +20,6 @@ https://watamaru1029.github.io/jsproduct/randomColor.html
 
 波のアニメーション
 https://watamaru1029.github.io/jsproduct/wave.html
+
+動くパネルのアニメーション
+https://watamaru1029.github.io/jsproduct/movePanel.html
